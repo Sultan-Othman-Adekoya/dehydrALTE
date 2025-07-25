@@ -8,7 +8,7 @@ from ultralytics import YOLO
 from PIL import Image
 
 # Load model
-model = YOLO("/content/best (1).pt")
+model = YOLO("best (1).pt")
 
 # WebRTC config (optional STUN server)
 RTC_CONFIGURATION = RTCConfiguration(
